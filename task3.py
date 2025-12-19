@@ -2,7 +2,7 @@
 #YOUR CODE WILL FAIL IF YOU DO NOT DELETE THE LINE!!!!!!!!!!!!!
 
 # Testing flag - will be set by test
-TESTING = False
+TESTING = True
 item = None
 price = None
 quantity = None
@@ -24,7 +24,7 @@ Time Turner.........$84.99
 Enchanted Sword.........$65.99
 Potion of Luck.........$11.99
 Crystal Ball.........$39.99""")
-print(s.menu)
+
 
 
 # Shopkeeper's rule: All purchases must be at least 3 items for good luck!
