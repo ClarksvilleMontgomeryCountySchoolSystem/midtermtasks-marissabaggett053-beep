@@ -2,7 +2,7 @@
 #YOUR CODE WILL FAIL IF YOU DO NOT DELETE THE LINE!!!!!!!!!!!!!
 
 # Testing flag - will be set by test
-TESTING = True
+TESTING = False
 item = None
 price = None
 quantity = None
