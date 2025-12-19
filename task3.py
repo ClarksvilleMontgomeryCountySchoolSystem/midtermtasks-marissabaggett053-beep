@@ -42,7 +42,7 @@ if not TESTING:
 # TODO: Calculate subtotal, tax, and total
 subtotal = float(price * quantity)
 # Tax rate: 9.5%
-tax_amount = subtotal * 0.095
+tax = subtotal * 0.095
 total = subtotal + tax_amount
 
 # TODO: Round total to 2 decimal places using round()
@@ -54,6 +54,6 @@ print(f"{item} x{quantity} ${price} each")
 print("--------------------------")
 # Print subtotal, tax, and total here
 print(f"Subtotal: ${subtotal}")
-print(f"Tax: ${tax_amount}")
+print(f"Tax: ${tax}")
 print(f"Total: ${total}")
 print("\nThank you for shopping at\nthe Peculiar Emporium!")
